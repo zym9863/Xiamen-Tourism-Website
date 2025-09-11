@@ -87,81 +87,117 @@ const onClick = (event) => {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  border: 1px solid transparent;
-  padding: 0.5rem 1.25rem;
+  border: 2px solid transparent;
+  padding: var(--spacing-sm) var(--spacing-lg);
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: var(--line-height-normal);
   border-radius: var(--radius-md);
   transition: all var(--transition-normal);
   cursor: pointer;
   position: relative;
   overflow: hidden;
   text-decoration: none;
+  letter-spacing: 0.02em;
+  min-height: 44px; /* Accessibility: minimum touch target */
 }
 
 .app-button:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.25);
+  box-shadow: 0 0 0 3px rgba(30, 136, 229, 0.25);
+  z-index: 1;
 }
 
 .app-button:disabled {
-  opacity: 0.65;
+  opacity: 0.6;
   cursor: not-allowed;
+  transform: none !important;
 }
 
-/* Button variants */
+/* Enhanced button variants */
 .app-button--primary {
-  background-color: var(--primary-color);
-  color: white;
-  border-color: var(--primary-color);
+  background: var(--gradient-primary);
+  color: var(--white);
+  border-color: transparent;
+  box-shadow: var(--shadow-sm);
+}
+
+.app-button--primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left var(--transition-slow);
 }
 
 .app-button--primary:hover:not(:disabled) {
-  background-color: var(--primary-dark);
-  border-color: var(--primary-dark);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  filter: brightness(1.1);
+}
+
+.app-button--primary:hover::before {
+  left: 100%;
 }
 
 .app-button--primary:active:not(:disabled) {
-  transform: translateY(0);
-  box-shadow: var(--shadow-sm);
-}
-
-.app-button--secondary {
-  background-color: var(--secondary-color);
-  color: white;
-  border-color: var(--secondary-color);
-}
-
-.app-button--secondary:hover:not(:disabled) {
-  background-color: var(--secondary-dark);
-  border-color: var(--secondary-dark);
-  transform: translateY(-2px);
+  transform: translateY(-1px);
   box-shadow: var(--shadow-md);
 }
 
-.app-button--secondary:active:not(:disabled) {
-  transform: translateY(0);
+.app-button--secondary {
+  background: var(--gradient-secondary);
+  color: var(--white);
+  border-color: transparent;
   box-shadow: var(--shadow-sm);
+}
+
+.app-button--secondary:hover:not(:disabled) {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  filter: brightness(1.1);
+}
+
+.app-button--secondary:active:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
 }
 
 .app-button--outline {
   background-color: transparent;
   color: var(--primary-color);
   border-color: var(--primary-color);
+  position: relative;
+}
+
+.app-button--outline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--gradient-primary);
+  transition: width var(--transition-normal);
+  z-index: -1;
 }
 
 .app-button--outline:hover:not(:disabled) {
-  background-color: var(--primary-light);
-  color: var(--primary-dark);
+  color: var(--white);
+  border-color: var(--primary-color);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
+}
+
+.app-button--outline:hover::before {
+  width: 100%;
 }
 
 .app-button--outline:active:not(:disabled) {
@@ -173,29 +209,38 @@ const onClick = (event) => {
   background-color: transparent;
   color: var(--primary-color);
   border-color: transparent;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: var(--spacing-sm);
+  padding-right: var(--spacing-sm);
+  min-height: auto;
 }
 
 .app-button--text:hover:not(:disabled) {
   color: var(--primary-dark);
-  background-color: rgba(26, 115, 232, 0.05);
+  background-color: rgba(30, 136, 229, 0.08);
+  transform: none;
 }
 
-/* Button sizes */
+.app-button--text:active:not(:disabled) {
+  background-color: rgba(30, 136, 229, 0.12);
+}
+
+/* Enhanced button sizes */
 .app-button--small {
-  padding: 0.25rem 0.75rem;
+  padding: var(--spacing-xs) var(--spacing-md);
   font-size: 0.875rem;
+  min-height: 36px;
 }
 
 .app-button--medium {
-  padding: 0.5rem 1.25rem;
+  padding: var(--spacing-sm) var(--spacing-lg);
   font-size: 1rem;
+  min-height: 44px;
 }
 
 .app-button--large {
-  padding: 0.75rem 1.75rem;
+  padding: var(--spacing-md) var(--spacing-xl);
   font-size: 1.125rem;
+  min-height: 52px;
 }
 
 /* Button modifiers */
@@ -210,36 +255,96 @@ const onClick = (event) => {
 
 /* Button with icon */
 .app-button__icon {
-  margin-right: 0.5rem;
+  margin-right: var(--spacing-sm);
+  font-size: 0.9em;
+  transition: transform var(--transition-normal);
 }
 
-/* Ripple effect */
+.app-button:hover .app-button__icon {
+  transform: scale(1.1);
+}
+
+/* Enhanced ripple effect */
 .app-button::after {
   content: '';
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 5px;
-  height: 5px;
+  width: 0;
+  height: 0;
   background: rgba(255, 255, 255, 0.5);
   opacity: 0;
-  border-radius: 100%;
-  transform: scale(1, 1) translate(-50%, -50%);
-  transform-origin: 50% 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s, opacity 0.6s;
 }
 
-.app-button:focus:not(:active)::after {
-  animation: ripple 0.6s ease-out;
+.app-button:active:not(:disabled)::after {
+  width: 300px;
+  height: 300px;
+  opacity: 0;
 }
 
-@keyframes ripple {
-  0% {
-    transform: scale(0, 0) translate(-50%, -50%);
-    opacity: 0.5;
+/* Loading state */
+.app-button--loading {
+  color: transparent;
+  pointer-events: none;
+}
+
+.app-button--loading::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: button-spin 0.8s linear infinite;
+}
+
+@keyframes button-spin {
+  to {
+    transform: rotate(360deg);
   }
-  100% {
-    transform: scale(20, 20) translate(-50%, -50%);
-    opacity: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .app-button--large {
+    padding: var(--spacing-sm) var(--spacing-lg);
+    font-size: 1rem;
+    min-height: 44px;
+  }
+  
+  .app-button--medium {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-button {
+    font-size: 0.9rem;
+  }
+  
+  .app-button--large,
+  .app-button--medium {
+    padding: var(--spacing-sm) var(--spacing-md);
+    min-height: 40px;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .app-button--outline {
+    border-width: 3px;
+  }
+  
+  .app-button:focus {
+    outline: 3px solid currentColor;
+    outline-offset: 2px;
   }
 }
 </style>
