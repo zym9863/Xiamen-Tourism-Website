@@ -22,17 +22,13 @@ export default defineNuxtConfig({
       meta: [
         { name: 'description', content: '厦门旅游官方网站，提供厦门景点、美食、交通等全方位旅游信息。' },
         // PWA meta tags
-        { name: 'theme-color', content: '#1a73e8' },
+        { name: 'theme-color', content: '#1e88e5' },
         { name: 'apple-mobile-web-app-capable', content: 'yes' },
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
         { name: 'apple-mobile-web-app-title', content: '厦门旅游' },
         { name: 'mobile-web-app-capable', content: 'yes' }
       ],
       link: [
-        // Google Fonts
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap' },
-        // Font Awesome CDN (as a backup to the npm package)
-        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' },
         // PWA manifest
         { rel: 'manifest', href: '/manifest.json' },
         // PWA icons
