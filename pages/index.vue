@@ -34,19 +34,19 @@
         <h2>热门景点</h2>
         <div class="highlights-grid">
           <div class="highlight-item">
-            <div class="highlight-image" style="background-image: url('https://image.pollinations.ai/prompt/Gulangyu%20Island%20in%20Xiamen%20China%2C%20charming%20historic%20European-style%20colonial%20buildings%20with%20red%20roof%20tiles%2C%20narrow%20cobblestone%20streets%2C%20lush%20tropical%20vegetation%2C%20peaceful%20island%20atmosphere%2C%20soft%20morning%20light%2C%20travel%20destination%20photography%2C%204%3A3%20aspect%20ratio?width=1200&height=800&model=flux&seed=42'); background-size: cover; background-position: center;"></div>
+            <div class="highlight-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/6eda47c84f3f42faa6fa65158d23ba80.jpeg'); background-size: cover; background-position: center;"></div>
             <h3>鼓浪屿</h3>
             <p>被誉为"海上花园"，是国家5A级旅游景区和世界文化遗产。</p>
             <NuxtLink to="/attractions" class="btn">了解更多</NuxtLink>
           </div>
           <div class="highlight-item">
-            <div class="highlight-image" style="background-image: url('https://image.pollinations.ai/prompt/Xiamen%20University%20campus%20in%20China%2C%20beautiful%20traditional%20Chinese%20architecture%20mixed%20with%20modern%20buildings%2C%20students%20walking%20on%20campus%20paths%2C%20lake%20and%20mountains%20in%20background%2C%20lush%20green%20trees%20and%20gardens%2C%20peaceful%20academic%20atmosphere%2C%20soft%20daylight%2C%20educational%20tourism%20photography?width=1200&height=800&model=flux&seed=42'); background-size: cover; background-position: center;"></div>
+            <div class="highlight-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/f19787220380427da92c3c115b9f5454.jpeg'); background-size: cover; background-position: center;"></div>
             <h3>厦门大学</h3>
             <p>中国最美大学之一，依山傍海，风景如画。</p>
             <NuxtLink to="/attractions" class="btn">了解更多</NuxtLink>
           </div>
           <div class="highlight-item">
-            <div class="highlight-image" style="background-image: url('https://image.pollinations.ai/prompt/Huandao%20Road%20coastal%20scenic%20drive%20in%20Xiamen%20China%2C%20beautiful%20curved%20road%20along%20the%20ocean%2C%20cyclists%20and%20joggers%20enjoying%20the%20seaside%20path%2C%20palm%20trees%20lining%20the%20road%2C%20blue%20sea%20and%20white%20sandy%20beach%2C%20modern%20city%20skyline%20in%20distance%2C%20perfect%20weather%20for%20outdoor%20activities?width=1200&height=800&model=flux&seed=42'); background-size: cover; background-position: center;"></div>
+            <div class="highlight-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/1a5aac6e64004cf380ac8703cef352ed.jpeg'); background-size: cover; background-position: center;"></div>
             <h3>环岛路</h3>
             <p>全长环岛路是厦门最美的海滨风景大道。</p>
             <NuxtLink to="/attractions" class="btn">了解更多</NuxtLink>
@@ -60,17 +60,17 @@
         <h2>特色美食</h2>
         <div class="food-grid">
           <div class="food-item">
-            <div class="food-image" style="background-image: url('https://image.pollinations.ai/prompt/Xiamen%20Shacha%20noodle%20soup%2C%20traditional%20Fujian%20cuisine%2C%20steaming%20bowl%20of%20rice%20noodles%20in%20rich%20peanut-based%20broth%2C%20topped%20with%20prawns%2C%20squid%2C%20bean%20sprouts%2C%20Chinese%20chives%2C%20served%20in%20ceramic%20bowl%2C%20street%20food%20photography%2C%20appetizing%20and%20authentic?width=800&height=800&model=flux&seed=42'); background-size: cover; background-position: center;"></div>
+            <div class="food-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/dfd381ad43dd44b78cb79ac41a184835.jpeg'); background-size: cover; background-position: center;"></div>
             <h3>沙茶面</h3>
             <p>厦门最具代表性的特色小吃之一。</p>
           </div>
           <div class="food-item">
-            <div class="food-image" style="background-image: url('https://image.pollinations.ai/prompt/Hai%20Li%20Jian%20oyster%20omelette%2C%20traditional%20Fujian%20Xiamen%20street%20food%2C%20crispy%20golden%20egg%20pancake%20with%20fresh%20oysters%2C%20starch%20coating%2C%20served%20on%20white%20plate%2C%20garnished%20with%20green%20lettuce%20and%20cilantro%2C%20food%20photography%2C%20authentic%20Chinese%20cuisine?width=800&height=800&model=flux&seed=42'); background-size: cover; background-position: center;"></div>
+            <div class="food-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/d475245eaa784a9e8d30e155fc2a5523.jpeg'); background-size: cover; background-position: center;"></div>
             <h3>海蛎煎</h3>
             <p>闽南沿海地区特色小吃，外酥里嫩。</p>
           </div>
           <div class="food-item">
-            <div class="food-image" style="background-image: url('https://image.pollinations.ai/prompt/Tu%20Sun%20Dong%20%28bamboo%20worm%20jelly%29%2C%20traditional%20Xiamen%20Fujian%20delicacy%2C%20transparent%20gelatinous%20blocks%20on%20white%20ceramic%20plate%2C%20served%20with%20soy%20sauce%20dipping%2C%20garlic%20and%20vinegar%20condiments%2C%20refreshing%20summer%20snack%2C%20authentic%20Chinese%20street%20food%20photography?width=800&height=800&model=flux&seed=42'); background-size: cover; background-position: center;"></div>
+            <div class="food-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/bcc161b025c54a11924b00450d71f9e1.jpeg'); background-size: cover; background-position: center;"></div>
             <h3>土笋冻</h3>
             <p>厦门传统风味小吃，清凉爽口。</p>
           </div>
@@ -112,7 +112,7 @@
 .hero {
   height: 80vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-              url('https://image.pollinations.ai/prompt/Beautiful%20scenic%20view%20of%20Xiamen%20coastal%20city%20in%20China%2C%20panoramic%20ocean%20view%20with%20blue%20sea%20and%20sky%2C%20palm%20trees%2C%20modern%20buildings%20along%20the%20coastline%2C%20golden%20sunset%20light%2C%20peaceful%20atmosphere%2C%20travel%20photography%20style%2C%20high%20quality%2C%2016%3A9%20aspect%20ratio?width=1920&height=1080&model=flux&seed=42') #3498db;
+              url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/192c70ec4833402fafd8bf4e55e564d7.jpeg') #3498db;
   background-size: cover;
   background-position: center;
   color: white;
