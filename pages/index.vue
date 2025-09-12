@@ -34,19 +34,19 @@
         <h2>热门景点</h2>
         <div class="highlights-grid">
           <div class="highlight-item">
-            <div class="highlight-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/6eda47c84f3f42faa6fa65158d23ba80.jpeg'); background-size: cover; background-position: center;"></div>
+            <div class="highlight-image" style="background-image: url('/images/gulangyu-island.jpg'); background-size: cover; background-position: center;"></div>
             <h3>鼓浪屿</h3>
             <p>被誉为"海上花园"，是国家5A级旅游景区和世界文化遗产。</p>
             <NuxtLink to="/attractions" class="btn">了解更多</NuxtLink>
           </div>
           <div class="highlight-item">
-            <div class="highlight-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/f19787220380427da92c3c115b9f5454.jpeg'); background-size: cover; background-position: center;"></div>
+            <div class="highlight-image" style="background-image: url('/images/xiamen-university.jpg'); background-size: cover; background-position: center;"></div>
             <h3>厦门大学</h3>
             <p>中国最美大学之一，依山傍海，风景如画。</p>
             <NuxtLink to="/attractions" class="btn">了解更多</NuxtLink>
           </div>
           <div class="highlight-item">
-            <div class="highlight-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/1a5aac6e64004cf380ac8703cef352ed.jpeg'); background-size: cover; background-position: center;"></div>
+            <div class="highlight-image" style="background-image: url('/images/ring-road.jpg'); background-size: cover; background-position: center;"></div>
             <h3>环岛路</h3>
             <p>全长环岛路是厦门最美的海滨风景大道。</p>
             <NuxtLink to="/attractions" class="btn">了解更多</NuxtLink>
@@ -60,17 +60,17 @@
         <h2>特色美食</h2>
         <div class="food-grid">
           <div class="food-item">
-            <div class="food-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/dfd381ad43dd44b78cb79ac41a184835.jpeg'); background-size: cover; background-position: center;"></div>
+            <div class="food-image" style="background-image: url('/images/shacha-noodles.jpg'); background-size: cover; background-position: center;"></div>
             <h3>沙茶面</h3>
             <p>厦门最具代表性的特色小吃之一。</p>
           </div>
           <div class="food-item">
-            <div class="food-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/d475245eaa784a9e8d30e155fc2a5523.jpeg'); background-size: cover; background-position: center;"></div>
+            <div class="food-image" style="background-image: url('/images/oyster-omelet.jpg'); background-size: cover; background-position: center;"></div>
             <h3>海蛎煎</h3>
             <p>闽南沿海地区特色小吃，外酥里嫩。</p>
           </div>
           <div class="food-item">
-            <div class="food-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/bcc161b025c54a11924b00450d71f9e1.jpeg'); background-size: cover; background-position: center;"></div>
+            <div class="food-image" style="background-image: url('/images/tushun-jelly.jpg'); background-size: cover; background-position: center;"></div>
             <h3>土笋冻</h3>
             <p>厦门传统风味小吃，清凉爽口。</p>
           </div>
@@ -112,7 +112,7 @@
 .hero {
   height: 80vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-              url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/192c70ec4833402fafd8bf4e55e564d7.jpeg') #3498db;
+              url('/images/hero-xiamen-skyline.jpg') #3498db;
   background-size: cover;
   background-position: center;
   color: white;

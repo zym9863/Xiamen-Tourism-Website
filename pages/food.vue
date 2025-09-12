@@ -21,7 +21,7 @@
         <h2 class="section-title">必尝美食</h2>
         
         <div class="food-item">
-          <div class="food-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/dfd381ad43dd44b78cb79ac41a184835.jpeg'); background-size: cover; background-position: center;"></div>
+          <div class="food-image" style="background-image: url('/images/shacha-noodles.jpg'); background-size: cover; background-position: center;"></div>
           <div class="food-content">
             <h3>沙茶面</h3>
             <p class="food-description">沙茶面是厦门最具代表性的特色小吃之一，以独特的沙茶酱为灵魂，配以各种海鲜和肉类，汤头鲜美，面条劲道。一碗沙茶面通常包含多种配料，如海鲜、肉片、豆腐、蔬菜等，营养丰富，风味独特。</p>
@@ -43,7 +43,7 @@
         </div>
 
         <div class="food-item">
-          <div class="food-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/d475245eaa784a9e8d30e155fc2a5523.jpeg'); background-size: cover; background-position: center;"></div>
+          <div class="food-image" style="background-image: url('/images/oyster-omelet.jpg'); background-size: cover; background-position: center;"></div>
           <div class="food-content">
             <h3>海蛎煎</h3>
             <p class="food-description">海蛎煎是厦门著名的传统小吃，由新鲜的牡蛎(海蛎)、地瓜粉、鸡蛋等原料制成。制作时将地瓜粉调成糊状，加入海蛎、鸡蛋等材料，摊成饼状煎熟，外酥里嫩，咸鲜可口。通常配以特制的酱料食用，增添风味。</p>
@@ -65,7 +65,7 @@
         </div>
 
         <div class="food-item">
-          <div class="food-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/bcc161b025c54a11924b00450d71f9e1.jpeg'); background-size: cover; background-position: center;"></div>
+          <div class="food-image" style="background-image: url('/images/tushun-jelly.jpg'); background-size: cover; background-position: center;"></div>
           <div class="food-content">
             <h3>土笋冻</h3>
             <p class="food-description">土笋冻是厦门传统风味小吃，主要原料是一种生活在滩涂中的小型海洋生物——土笋。将土笋煮熟后，汤汁冷却凝固成冻状，切成小块，配以蒜泥、酱油、醋、辣椒等调料食用。口感清凉爽滑，鲜咸适口，是夏季消暑的理想小吃。</p>
@@ -87,7 +87,7 @@
         </div>
 
         <div class="food-item">
-          <div class="food-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/2e21468da5614e618d8ec8601aca1d32.jpeg'); background-size: cover; background-position: center;"></div>
+          <div class="food-image" style="background-image: url('/images/meat-zongzi.jpg'); background-size: cover; background-position: center;"></div>
           <div class="food-content">
             <h3>烧肉粽</h3>
             <p class="food-description">厦门烧肉粽是闽南地区特色粽子，与北方粽子不同，它采用糯米、猪肉、香菇、虾米等材料制作，呈四角锥形，口味咸香。食用时通常蘸以特制的甜辣酱料，甜咸结合，风味独特。厦门烧肉粽不仅是端午节的应景食品，也是当地人日常喜爱的小吃。</p>
@@ -109,7 +109,7 @@
         </div>
 
         <div class="food-item">
-          <div class="food-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/3c59efd34b4843d485663cf8dfdd0e62.jpeg'); background-size: cover; background-position: center;"></div>
+          <div class="food-image" style="background-image: url('/images/ginger-duck.jpg'); background-size: cover; background-position: center;"></div>
           <div class="food-content">
             <h3>姜母鸭</h3>
             <p class="food-description">姜母鸭是闽南地区的传统名菜，以鸭肉和老姜为主要原料，加入多种中药材炖煮而成。此菜肉质鲜嫩，姜香浓郁，汤汁鲜美，具有温胃驱寒的功效，特别适合在冬季食用。厦门的姜母鸭保留了传统做法，同时融入了当地特色，成为游客必尝的美食之一。</p>
@@ -137,7 +137,7 @@
         <h2 class="section-title">美食街区</h2>
         <div class="streets-grid">
           <div class="street-card">
-            <div class="street-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/ebfa8f61c4574d2f8b377e2e3b0cc195.jpeg'); background-size: cover; background-position: center;"></div>
+            <div class="street-image" style="background-image: url('/images/zhongshan-road.jpg'); background-size: cover; background-position: center;"></div>
             <div class="street-content">
               <h3>中山路步行街</h3>
               <p>厦门最古老的商业街之一，汇集了众多老字号小吃店，是品尝传统厦门美食的好去处。</p>
@@ -147,7 +147,7 @@
           </div>
 
           <div class="street-card">
-            <div class="street-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/9a0177f460d5462284181bab538aa3a9.jpeg'); background-size: cover; background-position: center;"></div>
+            <div class="street-image" style="background-image: url('/images/zengcuoan.jpg'); background-size: cover; background-position: center;"></div>
             <div class="street-content">
               <h3>曾厝垵</h3>
               <p>原本是一个小渔村，现已发展成为集美食、文创、民宿为一体的特色街区，拥有数百家特色小吃店。</p>
@@ -157,7 +157,7 @@
           </div>
 
           <div class="street-card">
-            <div class="street-image" style="background-image: url('https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/700f709c4b7b450c930df4b66da5f35d.jpeg'); background-size: cover; background-position: center;"></div>
+            <div class="street-image" style="background-image: url('/images/eighth-market.jpg'); background-size: cover; background-position: center;"></div>
             <div class="street-content">
               <h3>八市</h3>
               <p>厦门最大的传统海鲜市场，也是当地人采购海鲜和品尝海鲜美食的地方，体验最地道的厦门味道。</p>
@@ -202,7 +202,7 @@
 
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-              url('https://image.pollinations.ai/prompt/Xiamen%20food%20culture%20background%2C%20traditional%20Chinese%20street%20food%20scene%2C%20various%20Fujian%20cuisine%20dishes%20laid%20out%20on%20wooden%20table%2C%20steaming%20hot%20food%2C%20vibrant%20colors%2C%20chopsticks%2C%20tea%20cups%2C%20warm%20lighting%2C%20restaurant%20atmosphere%2C%20cultural%20dining%20experience%2C%2016%3A9%20aspect%20ratio?width=1920&height=1080&model=flux&seed=42') #e74c3c;
+              url('/images/food-header-bg.jpg') #e74c3c;
   background-size: cover;
   background-position: center;
   color: white;
