@@ -3,52 +3,122 @@
   --primary-color: #1a73e8; /* Bright blue - main brand color */
   --primary-dark: #0d47a1; /* Darker blue for hover states */
   --primary-light: #bbdefb; /* Light blue for backgrounds */
+  --primary-alpha: rgba(26, 115, 232, 0.1); /* Primary with transparency */
   
   /* Secondary Colors - Beach-inspired palette */
   --secondary-color: #ff9800; /* Orange - accent color */
   --secondary-dark: #e65100; /* Dark orange */
   --secondary-light: #ffe0b2; /* Light orange */
+  --secondary-alpha: rgba(255, 152, 0, 0.1); /* Secondary with transparency */
   
   /* Neutral Colors */
   --neutral-dark: #263238; /* Almost black - for text */
   --neutral-medium: #607d8b; /* Medium gray - for secondary text */
   --neutral-light: #eceff1; /* Light gray - for backgrounds */
+  --neutral-lighter: #f8f9fa; /* Even lighter for cards */
   --white: #ffffff;
+  --black: #000000;
   
   /* Accent Colors */
   --accent-teal: #009688; /* Teal - for highlights */
   --accent-coral: #ff5252; /* Coral - for important elements */
   --accent-green: #4caf50; /* Green - for success states */
+  --accent-purple: #9c27b0; /* Purple - for creativity */
+  --accent-indigo: #3f51b5; /* Indigo - for depth */
   
   /* UI Colors */
   --shadow-color: rgba(0, 0, 0, 0.1);
+  --shadow-color-strong: rgba(0, 0, 0, 0.2);
   --overlay-color: rgba(0, 0, 0, 0.5);
+  --overlay-light: rgba(0, 0, 0, 0.3);
+  
+  /* Glass Effect Colors */
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   
   /* Gradients */
   --gradient-primary: linear-gradient(135deg, var(--primary-color), var(--accent-teal));
   --gradient-secondary: linear-gradient(135deg, var(--secondary-color), var(--accent-coral));
+  --gradient-sunset: linear-gradient(135deg, #ff6b6b, #ff9800, #ffd54f);
+  --gradient-ocean: linear-gradient(135deg, #1a73e8, #009688, #00bcd4);
+  --gradient-purple: linear-gradient(135deg, #9c27b0, #673ab7, #3f51b5);
+  --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  --gradient-hero: linear-gradient(135deg, rgba(26, 115, 232, 0.9), rgba(0, 150, 136, 0.8));
+  
+  /* Background Gradients */
+  --bg-gradient-light: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  --bg-gradient-primary: linear-gradient(135deg, var(--primary-light) 0%, var(--secondary-light) 100%);
+  --bg-gradient-card: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
   
   /* Spacing */
-  --spacing-xs: 0.25rem;
-  --spacing-sm: 0.5rem;
-  --spacing-md: 1rem;
-  --spacing-lg: 2rem;
-  --spacing-xl: 3rem;
+  --spacing-xs: 0.25rem;   /* 4px */
+  --spacing-sm: 0.5rem;    /* 8px */
+  --spacing-md: 1rem;      /* 16px */
+  --spacing-lg: 2rem;      /* 32px */
+  --spacing-xl: 3rem;      /* 48px */
+  --spacing-xxl: 4rem;     /* 64px */
   
   /* Border Radius */
+  --radius-xs: 2px;
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 16px;
+  --radius-xl: 24px;
   --radius-round: 50%;
   
-  /* Shadows */
+  /* Enhanced Shadows */
+  --shadow-xs: 0 1px 2px var(--shadow-color);
   --shadow-sm: 0 2px 4px var(--shadow-color);
   --shadow-md: 0 4px 8px var(--shadow-color);
   --shadow-lg: 0 8px 16px var(--shadow-color);
+  --shadow-xl: 0 12px 24px var(--shadow-color);
   --shadow-inset: inset 0 2px 4px var(--shadow-color);
+  --shadow-colored: 0 4px 20px rgba(26, 115, 232, 0.3);
+  --shadow-hover: 0 8px 25px var(--shadow-color-strong);
   
-  /* Transitions */
-  --transition-fast: 0.2s ease;
+  /* Transitions and Animations */
+  --transition-fast: 0.15s ease;
   --transition-normal: 0.3s ease;
   --transition-slow: 0.5s ease;
+  --transition-bounce: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --transition-smooth: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  
+  /* Animation Durations */
+  --duration-fast: 200ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+  --duration-slower: 800ms;
+  
+  /* Z-index layers */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+  --z-toast: 1080;
+  
+  /* Glass Morphism */
+  --blur-xs: blur(2px);
+  --blur-sm: blur(4px);
+  --blur-md: blur(8px);
+  --blur-lg: blur(12px);
+  --blur-xl: blur(16px);
+  
+  /* Typography Weights */
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  
+  /* Line Heights */
+  --leading-tight: 1.25;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
 }
